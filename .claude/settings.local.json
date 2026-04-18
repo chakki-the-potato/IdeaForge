@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__query-docs",
+      "Bash(python3 -m compileall -q main.py ideaforge/)",
+      "Bash(IDEAFORGE_MOCK=1 printf \"1인 가구 대상 밀키트 구독 서비스\\\\n20대 후반 직장인\\\\n월 4만원 구독\\\\n신선도와 조리 편의성\\\\n\")",
+      "Bash(python3 main.py)",
+      "Bash(IDEAFORGE_MOCK=1 python3 main.py)",
+      "Bash(IDEAFORGE_MOCK=1 python3 main.py examples/sample_sketch.md)",
+      "Bash(rm -rf __pycache__ ideaforge/__pycache__)",
+      "Bash(IDEAFORGE_MOCK=1 python3 main.py missing_sketch.md)"
+    ]
+  }
+}
